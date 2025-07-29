@@ -90,6 +90,10 @@
         margin-top: 100px;
     }
 
+    .banner_2 img{
+        margin-bottom: 40px;
+    }
+
     .banner_2 img,
     .banner_2 .title_2 {
         width: 100%;
@@ -111,6 +115,7 @@
     }
 
     .blog {
+        margin-top: 20px;
         display: flex;
         gap: 30px;
         justify-content: center;
