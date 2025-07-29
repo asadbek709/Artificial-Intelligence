@@ -176,4 +176,31 @@
         gap: 30px;
         margin-bottom: 20px;
     }
+
+    .footer_start h5:hover,
+    .footer_start h4:hover,
+    .footer_start img:hover {
+        cursor: pointer;
+        color: #3A68B8;
+        transition: 0.4s;
+
+    }
+
+    .titles_2 h3:hover,
+    .titles_3 h3:hover,
+    .titles_4 h3:hover,
+    .titles_5 h3:hover {
+        cursor: pointer;
+        color: #3A68B8;
+        transition: 0.4s;
+    }
+
+    .titles_2 ul li a:hover,
+    .titles_3 ul li a:hover,
+    .titles_4 ul li a:hover {
+        cursor: pointer;
+        color: #3A68B8;
+        transition: 0.4s;
+        text-decoration: underline;
+    }
 }

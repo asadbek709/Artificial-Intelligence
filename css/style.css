@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     background-color: #071030;
@@ -26,6 +30,17 @@ button,
     border-radius: 5px;
     color: white;
     cursor: pointer;
+}
+
+.btn button:hover{
+    transition: 0.4s;
+    background-color: #3a68b8b6;
+}
+
+
+button:hover{
+    transition: 0.4s;
+    background-color: #3a68b8b6;
 }
 
 .line {
@@ -52,11 +67,13 @@ header {
     display: flex;
     justify-content: end;
     gap: 100px;
+    cursor: pointer;
 }
 
 .header_wrapper h1 {
     margin: 0 100px 0 10px;
     color: #3A68B8;
+    cursor: pointer;
 }
 
 .header_wrapper .nav_wrap nav ul {
@@ -77,6 +94,10 @@ header {
     font-weight: 500;
     transition: 0.4s;
     position: relative;
+}
+
+.header_wrapper .nav_wrap nav ul li a:hover{
+    color: #3A68B8;
 }
 
 .banner_wrap {
@@ -138,6 +159,10 @@ header {
     display: flex;
     gap: 70px;
     margin: 89px 0 99px 0;
+}
+
+.service img:hover{
+    cursor: pointer;
 }
 
 .parent .service img {
@@ -261,6 +286,15 @@ footer {
     background-color: #18193b;
 }
 
+.footer_start h5:hover,
+.footer_start h4:hover,
+.footer_start img:hover{
+    cursor: pointer;
+    color: #3A68B8;
+    transition: 0.4s;
+
+}
+
 .footer_start h4 {
     font-size: 15px;
     font-weight: 600;
@@ -324,6 +358,15 @@ footer {
     color: #fff;
 }
 
+.titles_2 h3:hover,
+.titles_3 h3:hover,
+.titles_4 h3:hover,
+.titles_5 h3:hover{
+    cursor: pointer;
+    color: #3A68B8;
+    transition: 0.4s;
+}
+
 .titles_2 ul,
 .titles_3 ul,
 .titles_4 ul {
@@ -335,6 +378,16 @@ footer {
 .titles_4 ul li a {
     text-decoration: none;
     color: #a8a8a8;
+}
+
+
+.titles_2 ul li a:hover,
+.titles_3 ul li a:hover,
+.titles_4 ul li a:hover{
+    cursor: pointer;
+    color: #3A68B8;
+    transition: 0.4s;
+    text-decoration: underline;
 }
 
 .titles_5 {
@@ -358,10 +411,24 @@ footer {
     margin-top: 29px;
 }
 
+.titles_5 h4:hover,
+.titles_5 .icons:hover,
+.language h4:hover{
+    cursor: pointer;
+    color: #3A68B8;
+    transition: 0.4;
+}
+
 .titles_5 .icons {
     display: flex;
     gap: 25px;
     margin-top: 21px;
+}
+
+.language img:hover{
+    cursor: pointer;
+    color: #3A68B8;
+    transition: 0.4s;
 }
 
 .language h4 {
